@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+table, th, td { width=100%;
+border: 3px double white;
+background:grey;
+padding:11px; text-align:center; }
+table.center {margin-left: auto; margin-right: auto;}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="#Health Studio" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Health Studio</a>
+    <a href="#About us" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About us</a>
+    <a href="#Loyalty card" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Loyalty card</a>
+    <a href="#Menu" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Menu</a>
+    <a href="#Order" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Order</a>
+    <a href="#Mens subscriptions" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Mens subscriptions</a>
+    <a href="#Woman subscriptions" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Woman subscriptions</a>
+    <a href="#Location" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Location</a>
+    <a href="#Contact us" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact us</a>
+    <div class="w3-dropdown-hover w3-hide-small">     
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#Health Studio" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Health Studio</a>
+  <a href="#About us" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About us</a>
+  <a href="#Loyalty card" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Loyalty card</a>
+  <a href="#Menu" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Menu</a>
+  <a href="#Order" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ORDER</a>
+  <a href="#Mens subscriptions" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Mens subscriptions</a>
+  <a href="#Woman subscriptions" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Woman subscriptions</a>
+  <a href="#Location" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Location</a>
+  <a href="#Contact us" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact us</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- HomePage content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="logo.jpg" style="width:100%; height:700px">
+    <div class="w3-display-bottommiddle w3-container w3-text-red w3-padding-32 w3-hide-small">
+      <h3> Health Studio</h3>
+      <p><b> Our Logo </b></p>   
+    </div>
+    </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="restaurant.jpg" style="width:100%; height:700px">
+    <div class="w3-display-bottommiddle w3-container w3-text-red w3-padding-32 w3-hide-small">
+      <h3> Health Studio </h3>
+      <p><b>  Night vibes </b></p>    
+    </div>
+    </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="res.jpg" style="width:100%; height:700px">
+    <div class="w3-display-bottommiddle w3-container w3-text-red w3-padding-32 w3-hide-small">
+      <h3> Health Studio </h3>
+      <p><b> Morning vibes </b></p>    
+    </div>
+    </div>
+  </div>
+
+  <!-- The Health Studio Section -->
+  <div class="w3-black" id="Health Studio">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Health Studio">
+    <h2 class="w3-wide"> Health Studio</h2>
+    <p class="w3-opacity"><i>WHEN WE SAY HEALTY, IT IS HEALTHY!</i></p>
+    <p class="w3-justify">Health Studio Restaurant & Cafe is a locally owned food business serving healthy foods, snacks and beverages. Driven by his passion for cooking healthy delicious meals, Chef Yousef Ashkanani, a renowned Kuwaiti Chef, Blogger, established the company in 2017 along with a group of Kuwaiti businessmen who share the same passion for food. Combining Chef Yousef’s long years of experience in the field of health and nutrition and his partners enterpreneurial skills, Health Studio Restaurant & Cafe continues to grow and became known to fitness enthusiasts. A 100% Kuwaiti owned company, Health Studio Restaurant & Cafe established its reputation to local and foreign nationals as one of the growing companies serving healthy meals cooked and prepared upholding Kuwaiti tradition.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Food</p>
+        <img src=" h1.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:160px; height:205px">
+      </div>
+      <div class="w3-third">
+        <p>Sweets</p>
+        <img src="h2.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:160px; height:205px">
+      </div>
+      <div class="w3-third">
+        <p>Drinks</p>
+        <img src="m4.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:160px; height:205px">
+      </div>
+    </div>
+  </div>
+ </div>
+
+  <!-- About us Section -->
+  <div class="w3-black" id="About us">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="ABOUT US">
+   <p class="w3-opacity"><i> About Health Studio </i></p>
+   <p class="w3-justify">The company aims to top the market locally and franchise across the Middle East. Health Studio started to expand its operation through intensive marketing in Cooperatives such as Mishref, Faiha, Adeliya, and Qurtoba. The company aims to serve more Cooperatives in Kuwait to reach out to every local and foreign health enthusiasts. Health Studio products are made available in Vortex Café and Frosting Treats. The company has tied up with local service provider, Carriage, for customers who wish to have their healthy meals delivered at the comfort of their home. Customers can get freshly cooked meals, detox, juices, well prepared Grab and Go meals as well as other menus with less hassle and the same amount of meal freshness and nutritional value.</p>
+   <p class="w3-justify">Health Studio Restaurant & Cafe continues to develop healthy menus giving attention to food quality, freshness and nutrition value targeted to fast-food consumers. Meals ranging from variety of chicken, beef, seafood and vegetable menus. Stiff competition among healthy restaurants encourage Health Studio to be the friendliest and trendiest joint in Kuwait.</p>
+   <p class="w3-justify">The company caters to more than 250 members in all parts of Kuwait through its Monthly Membership Meal Plan. Membership meals are served to fit customer preferences. 
+Take away meals are also made available at the main store in Jabriya providing freshly made ready-to-eat meals at a very affordable price.</p>
+<table class="center">
+  <tr>
+    <th>Restuarant name</th>
+    <th> Was established</th>
+    <th><strong>Branches</strong></th>
+  </tr>
+  <tr>
+    <td> Health Studio Restaurant & Cafe </td>
+    <td> Since 2017 </td>
+    <td>1- Al-Jabriya.<br>
+    2- Kuwait City.<br></td>
+  </tr>
+</table>
+  </div>
+ </div>
+
+<!-- Loyalty card Section -->
+  <div class="w3-black" id="Loyalty card">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="LOYALTY CARD">
+   <p class="w3-wide"><i> LOYALTY </i></p>
+   <video width="620" height="400" controls>
+<source src=" loyalty.mp4" type="video/mp4">
+</video>
+  </div>
+ </div>
+
+
+
+  <!-- The Menu Section -->
+  <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="Menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-wide" style="margin-bottom:64px">OUR MENU</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Chicken');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Chicken</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Beef & Seafood');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Beef & Seafood</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Keto meals');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Keto meals</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Salads');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Salads</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Sweets & Bites');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Sweets & Bites</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'MILKSHAKES');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">MILKSHAKES</div>
+      </a>
+    </div>
+
+    <div id="Chicken" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>CHICKEN RIO</b> <span class="w3-right w3-tag w3-dark-grey w3-round">3.4 KWD</span></h1>
+<img src=" f1.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Non-traditional Middle Eastern cuisine of fresh chiken breast marinated and grilled with a hint of asian-arabic taste. Served with 150 gms hareesh rice</p>
+      <hr>
+   
+      <h1><b>Chikcen Katsu Curry</b> <span class="w3-right w3-tag w3-dark-grey w3-round">3.5 KWD</span></h1>
+<img src=" f2.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Inspired from the Japanese cuisine, Chicken Baked Breast Comes with our Special home - made Healthy Sauce with White Rice.</p>
+      <hr>
+      
+      <h1><b>Chicken Escalope</b> <span class="w3-right w3-tag w3-dark-grey w3-round">2.9 KWD</span></h1>
+<img src=" f3.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Crunchy Chicken Strips Baked With Seasoned Healthy Crumbs For A Crispy and Delicious Meal. Served  With Mashed Potato and Chef's Special Mustard Sauce.</p>
+      <hr>
+
+     <h1><b> Raptor chicken burger </b> <span class="w3-right w3-tag w3-dark-grey w3-round">3.25KWD</span></h1>
+<img src="c1.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Healthy sandwich filled with baked chicken breast and house spiced sauce, oregano herbs, vegetables served with potato wedges on the side.</p>
+      <hr>
+      <h1><b> Chicken strips </b> <span class="w3-right w3-tag w3-dark-grey w3-round">3.25KWD</span></h1>
+<img src="c2.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Sliced chicken breast grilled with house spices. Served with potato and fresh vegetables on the side.</p>
+      <hr>
+      <h1><b>Flamed chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">3.3KWD</span></h1>
+<img src="c3.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Chicken breast seasoned with paprika and other house spices served with rice and vegies.</p>
+      <hr>
+      <h1><b>Mediteranean chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">3.4KWD</span></h1>
+<img src="c4.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Fresh cut chicken breast marinated and grilled in flavorful spices. Comes with mashed potato and vegetables on the side.</p>
+      <hr>
+     </div>
+
+      <div id="Beef & Seafood" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Hit & Run Salmon</b> <span class="w3-right w3-tag w3-dark-grey w3-round">5.9 KWD</span></h1>
+<img src=" f4.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Portion of skin-on /off Salmon freshly made & grilled
+by the CHEF.
+Served with our special rice & salad.</p>
+      <hr>
+     <h1><b>Health studio fish platter</b><span class="w3-right w3-tag w3-dark-grey w3-round">5.9KWD</span></h1>
+<img src="f7.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Healthy & Crispy thin Slices Of Fish Fillet Cooked With Mediterranean Twist To Bring out The Healthy Flavors. Served With Rice, House Salad to Complete Your Meal.</p>
+      <h1><b>Towering seabass</b><span class="w3-right w3-tag w3-dark-grey w3-round">5.9KWD</span></h1>
+<img src="f8.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">180 GRAM GRILLED SEABASS ON TOP OF 250 MASH POTATO MIXED UP WITH OUR SPECIAL CHEF'S SAUCE.</p>
+
+      <h1><b>Mongolian Beef</b><span class="w3-right w3-tag w3-dark-grey w3-round">4.25 KWD</span></h1>
+<img src=" f5.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Thin sliced tenderloin beef simmered in rich creamy sweet soya sauce with fresh green onions served with rice.</p>
+      <hr>
+
+      <h1><b>Tenderloin Steak</b><span class="w3-right w3-tag w3-dark-grey w3-round">5.5 KWD</span></h1>
+<img src=" f6.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Our Special Tenderloin steak prepared with our Chef seasonings .
+Served with Mashed Potatoes, Cherry Tomatoes, Bell Peppers, Edamame and Mushroom Sauce. </p>
+      <h1><b>Beef burger</b><span class="w3-right w3-tag w3-dark-grey w3-round">3.25KWD</span></h1>
+<img src="f9.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Our burger prepared in a HEALTHY WAY of  tenderlion beef   mixed with CHEF's special seasoning & sauce.</p>
+      <h1><b>Health studio beef sandwich</b><span class="w3-right w3-tag w3-dark-grey w3-round">4.5KWD</span></h1>
+<img src="f10.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Loaded with beef tenderloin strips, lettuce, onion, mushroom and yellow cheese in special house dressing.</p>
+      <h1><b>Health studio beef platter</b><span class="w3-right w3-tag w3-dark-grey w3-round">4.5KWD</span></h1>
+<img src="f11.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Charcoal grilled Beef Tenderloin seasoned with Peri Peri spices.
+Served with salad and mixed seasoned potato or our house special Pilau rice.</p>
+    </div>
+
+
+    <div id="Sweets & Bites" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Dates Cake (w/o Ice Cream)</b><span class="w3-right w3-tag w3-dark-grey w3-round">2 KWD</span></h1>
+<img src=" sb1.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Baked dates cake made from sweet ripe dates ideal for a clean and healthy snack cravings. Served with organic vanilla ice cream on top. ( no added sugar)</p>
+      <hr>
+   
+      <h1><b>Cookies</b> <span class="w3-right w3-tag w3-dark-grey w3-round">1.5 KWD</span></h1>
+<img src=" sb2.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Freshly & healthy baked cookies made with dark chocolate and low-fat milk</p>
+      <hr>
+      
+      <h1><b>Saffron Milk Cake</b> <span class="w3-right w3-tag w3-dark-grey w3-round">2.25 KWD</span></h1>
+<img src=" sb3.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">One of Our Specialty Made For Those who Seek Low Sugar options. Flavored With Natural Saffron, A Noval Spice Known For Its Vitamins, Minerals and Antioxidants, Our Milk Saffron Cake is the Healthiest Choice To Satisfy Your Cravings.( no added Sugar)</p>
+      <hr>
+
+      <h1><b>Brownies</b> <span class="w3-right w3-tag w3-dark-grey w3-round">1 KWD</span></h1>
+<img src=" sb4.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Healthy classic chocolate brownies prepared at HEALTH studio.</p>
+    </div>
+
+
+    <div id="MILKSHAKES" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>DATES CAKE MILKSHAKE</b><span class="w3-right w3-tag w3-dark-grey w3-round">2.25 KWD</span></h1>
+<img src=" m1.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <hr>
+   
+      <h1><b>COOKIES MILKSHAKE</b> <span class="w3-right w3-tag w3-dark-grey w3-round">2.25 KWD</span></h1>
+<img src=" m2.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <hr>
+      
+      <h1><b>ENERGY BITES MILKSHAKE</b> <span class="w3-right w3-tag w3-dark-grey w3-round">2.25 KWD</span></h1>
+<img src=" m3.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <hr>
+      
+      <h1><b>SAFFRON MILKSHAKE</b> <span class="w3-right w3-tag w3-dark-grey w3-round">2.25 KWD</span></h1>
+<img src=" m4.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+    </div><br>
+
+<div id="Keto meals" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Shrimp keto</b><span class="w3-right w3-tag w3-dark-grey w3-round">4KWD</span></h1>
+<img src="k1.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+     <p class="w3-text-grey">Healthy and delicious keto meal plan with 120gms of  shrimp and 150 gms cauliflower rice.</p>
+      <hr>
+   
+      <h1><b>Salmon keto</b> <span class="w3-right w3-tag w3-dark-grey w3-round">4.6KWD</span></h1>
+<img src="k2.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <p class="w3-text-grey">Healthy and delicious keto meal plan with 120gms of  fresh salmon and 150 gms cauliflower rice.</p>
+      <hr>
+      
+      <h1><b>Beef keto</b> <span class="w3-right w3-tag w3-dark-grey w3-round">4.7KWD</span></h1>
+<img src="k3.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br> 
+      <p class="w3-text-grey">Healthy and delicious keto meal plan with 120gms of tenderloin beef and 150 gms cauliflower rice.</p>
+      <hr>
+    </div><br>
+
+      <div id="Salads" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Chefs salad</b><span class="w3-right w3-tag w3-dark-grey w3-round">2.7 KWD</span></h1>
+<img src=" s1.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <hr>
+   
+      <h1><b> Vegan Salads </b> <span class="w3-right w3-tag w3-dark-grey w3-round">2.2 KWD</span></h1>
+<img src=" s2.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <hr>
+      
+      <h1><b> Crispy Beef Salad</b> <span class="w3-right w3-tag w3-dark-grey w3-round">2.5 KWD</span></h1>
+<img src=" s3.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <hr>
+      
+      <h1><b>Chicken Ceaser Salad</b> <span class="w3-right w3-tag w3-dark-grey w3-round">2.1 KWD</span></h1>
+<img src=" s4.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <h1><b> Kale Salad </b> <span class="w3-right w3-tag w3-dark-grey w3-round">2.4 KWD</span></h1>
+<img src=" s5.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+      <hr>
+      
+      <h1><b>Wild Rocca Salad</b> <span class="w3-right w3-tag w3-dark-grey w3-round">2.3 KWD</span></h1>
+<img src=" s6.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:27%">
+<br>
+    </div><br>
+
+  </div>
+</div>
+
+
+<!-- order Section -->
+  <div class="w3-black" id="Order">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="ORDER">
+  <h2 class="w3-wide">Talabat & Carriage wedsite:</h2>
+<p class="w3-wide">Click here to order: <a href="https://www.talabat.com/kuwait/restaurant/40027/health-studio-restaurant-and-cafe-jabriya?aid=23" target="_blank"> Talabat & carrige</a></br></p>
+  <h3 class="w3-wide"> Health Studio wedsite:</h3>
+<p class="w3-wide">Click here to order: <a href="https://www.healthstudio-kuwait.com/" target="_blank"> Health Studio </a></br></p>
+  <h4 class="w3-wide"> Deliveroo wedsite:</h4>
+<p class="w3-wide">Click here to order: <a href="https://deliveroo.com.kw/en/menu/kuwait/jabriya/health-studio-restaurant-and-cafe?day=today&geohash=tj4nuce0u1w0&time=ASAP" target="_blank"> Deliveroo </a></br></p>
+ </div>
+ </div>
+
+  <!-- mens subs Section -->
+  <div class="w3-black" id="Mens subscriptions">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center"> Subscriptions </h2>
+<img src="h4.jpg" class="w3-round" alt="Random Name" style="width:65% ;display: block;margin-left: auto;margin-right: auto;">
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding"> 2 meals 1 snack </li>
+        <li class="w3-padding"> 3 meals 1 snack </li>
+        <li class="w3-padding"> 4 meals 2 snacks</li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>2 meals 1 snack</b></p>
+            <p class="w3-opacity">150 KWD</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">SUBSICRIBE!</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          
+          <div class="w3-container w3-white">
+            <p><b> 3 meals 1 snack</b></p>
+            <p class="w3-opacity">190 KWD</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">SUBSICRIBE!</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>4 meals 2 snacks</b></p>
+            <p class="w3-opacity"> 235 KWD</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">SUBSICRIBE!</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   <!-- Woman Section -->
+  <div class="w3-black" id="Woman subscriptions">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center"> Subscriptions </h2>
+<img src="h5.jpg" class="w3-round" alt="Random Name"style="width:65% ;display: block;margin-left: auto;margin-right: auto;">
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding"> 2 meals 1 snack </li>
+        <li class="w3-padding"> 2 meals 2 snack </li>
+        <li class="w3-padding"> 3 meals 2 snacks</li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b> 2 meals 1 snack </b></p>
+            <p class="w3-opacity">135 KWD</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">SUBSICRIBE!</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          
+          <div class="w3-container w3-white">
+            <p><b> 2 meals 2 snack </b></p>
+            <p class="w3-opacity">145 KWD</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">SUBSICRIBE!</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b> 3 meals 2 snacks </b></p>
+            <p class="w3-opacity"> 170 KWD</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">SUBSICRIBE!</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Subscription </label></p>
+        <input class="w3-input w3-border" type="text" placeholder=" Which subscriotion?">
+        <p><label><i class="fa fa-user"></i> Contact me by:</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter E-mail">
+        <input class="w3-input w3-border" type="text" placeholder="Enter Your Number">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Location Section -->
+  <div class="w3-black" id="Location">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="LOCATION">
+  <h2 class="w3-wide">Google maps:</h2>
+  <p class="w3-opacity"><i> Al-Jabriya </i></p>
+  <br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3478.5578997375937!2d48.02214561505248!3d29.324641382149842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf9c5cf6035af3%3A0x695207ee167d328a!2sHealth%20Studio%20Restaurant%20%26%20Cafe!5e0!3m2!1sen!2skw!4v1608496016115!5m2!1sen!2skw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  <br>
+  <p class="w3-opacity"><i>  Kuwait City </i></p>
+  <br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3477.3060738656272!2d47.965415215053305!3d29.361326082135957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf8526ef1889f9%3A0x87637f571d06f019!2zSGVhbHRoIFN0dWRpbyDZh9mK2YTYqyDYp9iz2KrZiNiv2YrZiA!5e0!3m2!1sen!2skw!4v1608496071416!5m2!1sen!2skw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+ </div>
+ </div>
+
+  <!-- The Contact Section -->
+ <div class="w3-black" id="Contact us">
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="Contact us">
+    <h2 class="w3-wide w3-center">Contact us</h2>
+    <p class="w3-opacity w3-center"><i> Drop a note!</i></p>
+    <p class="w3-opacity w3-center"><i> For any suggestions and complaints!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> 5th Street, Al-Jabriya <br>
+        <i class="fa fa-map-marker" style="width:30px"></i> Al-Sour Street, Kuwait City <br>
+        <i class="fa fa-phone" style="width:30px"></i> Restaurant: 65130200<br>
+        <i class="fa fa-phone" style="width:30px"></i> For monthly subscriptions: 65170005 <br>
+        <i class="fa fa-phone" style="width:30px"></i> For suggestions and complaints: 92232810 <br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email:admin@healthstudiokw.com <br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="First name" required name="First name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Last name" required name="Last name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Phone number" required name=" Phone number">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+ </div>
+ 
+<!-- End Page Content -->
+</div>
+
+
+<!-- Footer -->
+<div class="w3-grey" id="Location">
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+   <a href="https://www.instagram.com/HealthStudioKW/?hl=en">Instargram</a>
+  <p class="w3-medium">Powered by <a href="https://www.healthstudiokw.com/" target="_blank">Health Studio</a></br></p>
+  <P>Copyright:Abdullah Alboloushi.<br></P>
+</footer>
+</div>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
